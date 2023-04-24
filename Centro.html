@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="assets/images/tanjiro.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <title> Inazuma Eleven </title>
+</head>
+
+<style>
+    
+    .container-fluid {
+        max-width: 80%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        overflow-x: hidden;
+        background-image: url(ahhh.jpg);
+    }
+
+    .card {
+        box-shadow: 0px 0px 10px rgba(183, 87, 87, 0.3);
+
+    }
+
+    .card-title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .card-text {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .carousel-inner .carousel-item img {
+        height: 550px !important;
+        width: 100%;
+        object-fit: fill;
+        object-position: center;
+    }
+
+    img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    #titulo {
+        text-align: center !important;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .Intro {
+        font-size: 20px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 30vh;
+        border-radius: 25px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .social {
+        color: #fff;
+        /* Color del texto */
+    }
+
+    .social i {
+        color: #ff0000;
+        /* Color de fondo de los iconos */
+    }
+
+    #footer a {
+        color: white;
+    }
+
+    @media (min-width: 320px) and (max-width: 768px) {
+        .container-fluid {
+            max-width: 100%;
+            overflow-x: hidden;
+            margin: 2px;
+        }
+
+        .carousel-inner .carousel-item img {
+            height: 200px !important;
+            width: 100%;
+            object-fit: fill;
+            object-position: center;
+        }
+
+        h1 {
+            font-size: 25px;
+            
+        }
+
+        .Intro {
+            font-size: 18px;
+        }
+
+        .card {
+            margin: 2px;
+            width: 100%;
+
+        }
+
+        .card-body {
+            width: 100%;
+        }
+
+        .card-title {
+            font-size: 22px;
+            text-align: center;
+        }
+
+        .card-text {
+            font-size: 18px;
+            text-align: justify;
+        }
+
+
+        iframe {
+            width: 100%;
+            height: 30vh;
+            border-radius: 15px;
+        }
+
+        img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        #footer a {
+            color: white;
+        }
+
+    }
+</style>
+
+<body>
+    
+    <!--Main Container-->
+    <div class="container-fluid">
+        <!--Header-->
+        <header>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="Entrada.html">Inicio</a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Centro.html">Home</a>
+                            </li>
+                            
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--Fin header-->
+        <!--Main- CARROUSEL-->
+        <main id="main">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block rounded" src="inazuma imagen.jpg" alt="Inazuma eleven OG">
+                    </div>
+                    <div class="carousel-item ">
+                        <img class="d-block rounded" src="dam.jpg" alt="Inazuma eleven GO">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block rounded" src="ares.jpg" alt="Inazuma eleven ares">
+                    </div>
+                    <div class="carousel-item ">
+                        <img class="d-block rounded" src="orion.jpg" alt="inazuma eleven orion">
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <br>
+        <!--Fin Main-->
+        <div class="mt-2 m-1 text-dark rounded text-center p-1">
+            <h1 class="texto-4">Inazuma eleven OG</h1>
+            <p class="Intro"> ​ es una serie de manga creada por Tenya Yabuno, que está basado en el videojuego del
+                mismo título para la consola portátil Nintendo DS. El manga fue publicado por la editorial Shogakukan en
+                la revista CoroCoro Comic desde junio de 2008.​ En el 2010, el manga obtuvo el premio Kodansha Manga
+                Award en la categoría de mejor Manga Infantil,​ reconocimiento que obtuvo nuevamente en el año 2012.
+            </p>
+            <h1>Inazuma eleven GO</h1>
+
+            <p class="Intro"> es un anime que es la secuela de la primera saga Inazuma Eleven producido por Level-5 y
+                OLM Inc basado en el el guion del cuarto videojuego (sin contar sus ediciones) cuya historia es el
+                inicio de la Saga de Arion.
+
+                Fue estrenado el 04 de Mayo del 2011 en Japón siendo emitido por Tv-Tokyo y terminado sus emisiones el
+                11 de Abril del 2012, siendo sucedido por su segunda temporada Inazuma Eleven GO Chrono Stones. </p>
+
+            <h1>Inazuma eleven Ares </h1>
+
+            <p class="Intro">
+                los hechos ocurridos en la primera temporada de esta saga estará situada un año después de la primera
+                temporada de la Saga de Mark, pero en un mundo paralelo donde algunos hechos nunca ocurrieron como la
+                invasión de la Academia Alius o las muertes de algunos personajes como Aiden Froste y Xavier Schiller
+                aunque con una diferencia de edad a comparación de sus contrapartes originales.
+
+                Uno de los protagonistas principales de esta saga se llama Sonny Wright que junto con sus compañeros de
+                la Isla Remota se van a Tokio (Ciudad Inazuma) para unirse al club de fútbol del Instituto Raimon para
+                ganar el torneo Fútbol Frontier y así salvar a su club de fútbol en su instituto de origen.
+            </p>
+            <h1>Inazuma eleven orion</h1>
+            <p class="Intro">
+                es la segunda temporada de la Bilogía del Gran Camino de los Héroes, la tercera saga de la franquicia de
+                Inazuma Eleven y la sucesora de Inazuma Eleven Ares.
+                <br>
+                Su anuncio fue realizado en el Inazuma Fest 2018, el día 26 de Agosto de 2018, junto a los integrantes
+                de la Inazuma Japón.
+            </p>
+        </div>
+
+        <!--Galeria Grupo Card #1- 1Ero-->
+        <h3 class="mb-3 pb-3 text-center">⚡Personajes De inazuma Eleven⚡</h3>
+        <div class="card-group">
+            <div class="card m-1 p-2">
+                <img class="card-img-top" src="axel hiss.gif" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">🔥Axel blaze🔥</h5>
+                    <p class="card-text">es el delantero estrella del Raimon y del Inazuma Japón, la selección nacional
+                        de Japón. Lleva el dorsal número 10 en todos los equipos en los que ha jugado. </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <div class="card m-1 p-2">
+                <img class="card-img-top" src="endou.gif" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">⚡Endou mamoru⚡</h5>
+                    <p class="card-text">Endo es el Capitán, portero y a veces líbero de la secundaria Raimon. Luego lo
+                        es de los SUPER ONCE de Japón. El nunca se ha dado por vencido y cuando está perdiendo un
+                        partido sigue luchando hasta que logra la victoria. Su mejor amigo es Shuya Goenji, pues es el
+                        primer jugador que le enseño un nuevo fútbol.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <div class="card m-1 p-2">
+                <img class="card-img-top" src="hirot.gif" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">👽Hiroto Kiyama👽</h5>
+                    <p class="card-text">Es un delantero de Génesis y lleva el dorsal 11, en los Super Once de Japón es
+                        un delantero y lleva el dorsal 18. Siempre está apoyando a sus amigos para ganar y es un buen
+                        estratega y guia, hace todo lo posible para ganar, nunca se rinde y siempre busca evolucionar
+                        sus tecnicas (pues como se ve en el capitulo 100 tiene un muy buen control del balon, supero a
+                        casi 5 defensas e hizo el gol; tiene muy buenos regates) .
+
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <!--Galeria Grupo Card #2 -->
+            <div class="card-group">
+                <div class="card m-1 p-2">
+                    <img class="card-img-top" src="kidou 2.gif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">😎Kidou yuuto😎</h5>
+                        <p class="card-text">Kido llega a ser considerado como el mejor estratega del mundo a nivel
+                            estudiantil ; su tecnica, control del balón y creación del juego ofensivo y también
+                            defensivo lo hace un mediocampista-atacante sorprendente.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card m-1 p-2">
+                    <img class="card-img-top" src="Tiro adn.gif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">🥶Fubuki Shiro🥶</h5>
+                        <p class="card-text">Fubuki es probablemente el jugador mas rápido de la serie junto con
+                            Kazemaru, es increíble robando el balón o interceptando los pases, además sus tiros son de
+                            gran fuerza y precisión.Tambien se destaca de el que puede jugar de delantero y defensa</p>
+                        <p class="card-text"><small class="text-muted">Psdt:No es demasiado hermoso ese tiro
+                                adn?</small></p>
+                    </div>
+                </div>
+                <div class="card m-1 p-2">
+                    <img class="card-img-top" src="paolo.gif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Fidio aldena</h5>
+                        <p class="card-text">Fidio Aldena es un jugador de ORFEO de Italia.Juega como delantero.Cuando
+                            Hidetoshi Nakata no esta en el equipo,él es el capitan.Es uno de los mejores delanteros de
+                            la serie.
+
+                            Es muy veloz y agil, pero igualmente su control del balón, la tecnica y potencia de sus
+                            tiros y una buena recuperacion de balón lo hacen en unos de los mejores jugadores de la
+                            serie.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <!--Galeria Grupo Card #3- -->
+                <div class="card-group">
+                    <div class="card m-1 p-2">
+                        <img class="card-img-top" src="heavens time.gif" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">👼 Afrodi Terumi👼 </h5>
+                            <p class="card-text">Es de caracter muy paciente y tranquilo, le gusta decir frases de
+                                dioses y se ríe facilmente cuando hace algo bien, se pudo notar que la única vez que se
+                                enojó fue cuando perdió contra Raimon y sus pupilas empezaron a ejercer un color rojo
+                                muy fuerte.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card m-1 p-2">
+                        <img class="card-img-top" src="ray dark.gif" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">😈Kageyamaa😈</h5>
+                            <p class="card-text"> es uno de los villanos más importantes de la franquicia de Inazuma
+                                Eleven.
+                                Fue el entrenador de la Royal Academy, el Zeus y la Royal Academy Redux.
+
+                                En la tercera temporada se hace llamar Mr. D (ミスターK, Mr. K en japonés) y fue el
+                                entrenador del Equipo D y Orfeo.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card m-1 p-2">
+                        <img class="card-img-top" src="Arion.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">🌪️Arion Sherwind🌪️</h5>
+                            <p class="card-text">es el protagonista de Inazuma Eleven GO (Tanto en el anime, como en el
+                                juego de Nintendo 3DS). Es familiar de Aki Kino y juega como Mediocampista. Juega en el
+                                equipo de la Secundaria Raimon, esta vez en la nueva generación 10 años después del
+                                FFI.Tenma se vuelve el capitán del equipo cuando Shindo recibe una grave lesión.
+
+                            </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+
+                    <!--Galeria Grupo Card #4--->
+                    <div class="card-group">
+                        <div class="card m-1 p-2">
+                            <img class="card-img-top" src="tsurugi.gif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">⚫Tsurugi Kyosuke⚫</h5>
+                                <p class="card-text">es un delantero de Raimon. En los primeros capítulos es un
+                                    antagonista de los Super Once GO, luego se une a Raimon con ayuda de su hermano.
+                                    Antes formaba parte de los Caballeros Negros, siendo controlado por el Sector V.
+                                    Actualmente posee el dorsal 10 (igual que Goenji) y sigue manteniendo su actitud
+                                    igual, pero ahora es un poco sereno y más amigable. Es de los mejores jugadores de
+                                    Raimon.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card m-1 p-2">
+                            <img class="card-img-top" src="Zarnak.gif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">👑Zarnak Avalonic👑:</h5>
+                                <p class="card-text"> Es un personaje de Inazuma Eleven GO Chrono Stone. El es un
+                                    Delantero y Capitán del ZanaRk Domain. Mas tarde deja de ser miembro de El Dorado y
+                                    pasa a ser miembro del Second Stage Children con su Equipo Zan y después se aliada
+                                    con El Dorado y hace parte de los Once Definitivos. También fue el entrenador del
+                                    Protocolo Omega 3.0.</p>
+                                <pclass="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card m-1 p-2">
+                            <img class="card-img-top" src="shindou.gif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">🎩Shindou Takuto🎩</h5>
+                                <p class="card-text">es el capitán y mediocampista de la Secundaria Raimon (GO). Al
+                                    principio no creía en el fútbol de Tenma y no le caía bien, pero después Tenma le
+                                    abrió los ojos y le mostró que no importan las reglas del Sector V sino el amor que
+                                    uno siente por el fútbol.Tiene su propio avatar, el cual lo nombró como Maestro
+                                    Musico.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+
+
+                        <!--Galeria Grupo Card #6--->
+                        <div class="card-group">
+                            <div class="card m-1 p-2">
+                                <img class="card-img-top" src="saryuu evans.gif" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">🦍Saryuu Evans🦍</h5>
+                                    <p class="card-text">conocido bajo su nombre clave SARU. Es el líder de la
+                                        organización Fader, el capitán y un delantero del equipo Lagoon. Es el
+                                        antagonista principal de Inazuma Eleven GO Chrono Stone.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card m-1 p-2">
+                                <img class="card-img-top" src="Sol.gif" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">☀️Taiyo Amemya☀️ </h5>
+                                    <p class="card-text">es el capitán del poderoso Instituto Arakumo el cual se
+                                        enfrenta a Raimon como el oponente semi-final del Torneo de Fútbol Holy Road.
+                                        Amemiya veía a Tenma en la televisión desde el hospital hace demasiado tiempo,
+                                        se podría decir que es un fan de Tenma. Desde niño siempre se la pasó en el
+                                        hospital por una terrible enfermedad que no le permite jugar fútbol.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card m-1 p-2">
+                                <img class="card-img-top" src="Nishizono Shinsuke.gif" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">🖋️Nishizono Shinske🖋️</h5>
+                                    <p class="card-text"> es un jugador de Raimon GO , juega como defensa y como
+                                        portero. Es el mejor amigo de Tenma. En Chrono Stone está en el club de Pin Pon
+                                        o Tenis de mesa no reconoce a Tenma al igual que los demas ya que no existe el
+                                        club de soccer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+
+                            <!--Galeria Grupo Card #7--->
+                            <div class="card-group">
+                                <div class="card m-1 p-2">
+                                    <img class="card-img-top" src="asuto.gif" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">👌Asuto inamori👌</h5>
+                                        <p class="card-text">Es uno de los tres protagonistas de Inazuma Eleven Ares no
+                                            Tenbin. También es uno de los delanteros del equipo Inakumi Raimon .</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card m-1 p-2">
+                                    <img class="card-img-top" src="nosaka.gif" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">👑Nosaka Yuuma🎩</h5>
+                                        <p class="card-text"> Es uno de los tres protagonistas de Inazuma Eleven Ares no
+                                            Tenbin. Es un delantero de Otei Tsukinomiya.
+
+                                            Es conocido como el Emperador Táctico</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card m-1 p-2">
+                                    <img class="card-img-top" src="Haizaki.gif" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">🐧Haizaki Ryouhuei 🐧</h5>
+                                        <p class="card-text">Es uno de los tres protagonistas de Inazuma Eleven Ares no
+                                            Tenbin.
+
+                                            Juega como delantero en el equipo Seisho Gakuen
+
+                                            hasta que su equipo fue eliminado del torneo Fútbol Frontera, al ser
+                                            derrotados de forma muy aplastante por la escuela Otei Tsukinomiya</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!--Galeria Grupo Card #8--->
+                                <div class="card-group">
+                                    <div class="card m-1 p-2">
+                                        <img class="card-img-top" src="Ichihoshi mitsuru.webp" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">👻Ichihoshi Mitsuru👻</h5>
+                                            <p class="card-text">Mitsuru era un niño de media estatura, tenía un tono de
+                                                piel claro y el pelo medio largo de color azul oscuro, que le llega
+                                                hasta el cuello, con dos flequillos en la frente. También tiene ojos de
+                                                color azul marino.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card m-1 p-2">
+                                        <img class="card-img-top"
+                                            src="Zoro.gif"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">⚔️Roronoa Zoro⚔️</h5>
+                                            <p class="card-text">Se perdio y aparecio aca </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card m-1 p-2">
+                                        <img class="card-img-top" src="Kira hiroto.gif" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">💥Kira Hiroto💥</h5>
+                                            <p class="card-text">Posee una actitud muy diferente a su niñez siendo este
+                                                una persona rebelde hasta llegar al punto de juntarse con malas
+                                                amistades y escapar de Casa. Ha demostrado tener buenas
+                                                habilidades para el soccer, su aspecto cambia drasticamente y pertenece
+                                                al Equipo Eisei Gakuen (Ares) como una de las condiciones que establecio
+                                                Seijiro Kira a Hitomiko Kira si queria que el patrocinara el equipo
+                                                Eisei Gakuen para participar en el torneo</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+
+                                    <!--Galeria de Videos-->
+
+
+                                    <h3 id="titulo" class="text-center">⚡Videitos De inazuma⚡</h3>
+                                    <hr>
+
+                                    <div class="card-group">
+                                        <div class="card">
+                                        <iframe src="https://www.youtube.com/embed/U624fmHdHW4"
+                                                title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Resume Temporada 1 Inazuma
+                                                </h5>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                        ago</small></p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <iframe src="https://www.youtube.com/embed/i63CLXuVVxs"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+
+                                            <div class="card-body">
+                                                <h5 class="card-title">Resumen Temporada 2</h5>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                        ago</small></p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <iframe src="https://www.youtube.com/embed/hVqIXb89WCU"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Resumen Temporada 3(Copa del mundo)
+                                                </h5>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                        ago</small></p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="card-group">
+                                            <div class="card">
+                                                <iframe src="https://www.youtube.com/embed/2KMUvEgRQhE"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Resumen inazuma eleven go
+                                                    </h5>
+                                                    <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                            ago</small></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <iframe src="https://www.youtube.com/embed/d_mJWz_qKYI"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Resumen inazuma eleven ares</h5>
+                                                    <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                            ago</small></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <iframe src="https://www.youtube.com/embed/nV4VYydZ9lk"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">curiosidades de inazuma eleven ares</h5>
+                                                    <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                            ago</small></p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr />
+                            </div>
+
+
+                            <h3 id="titulo" class="text-center">👹Ver todas las Temporadas 👹</h3>
+                            <hr>
+                            <!-- Boton Ver Serie-->
+
+                            <div class="w-100 ">
+
+                                <!-- Boton Ver Serie-->
+                                <div class="text-center center-block">
+
+                                    <a href="https://www3.animeflv.net/anime/inazuma-eleven"
+                                        target="_blank" class="btn btn-danger btn-lg btn-block" tabindex="-1"
+                                        role="button" aria-disabled="true">Ver las primeras 3 temporadas de inazuma eleven
+                                       </a>
+
+                                </div>
+                                <br>
+                                <div class="text-center center-block">
+
+                                    <a href="https://www3.animeflv.net/anime/inazuma-eleven-go"
+                                        target="_blank" class="btn btn-danger btn-lg btn-block" tabindex="-1"
+                                        role="button" aria-disabled="true">😁Ver Inazuma eleven Go
+                                    </a>
+
+                                </div>
+                                <br>
+                                <div class="text-center center-block">
+
+                                    <a href="https://www1.animeonline.ninja/online/inazuma-eleven-ares-no-tenbin/"
+                                        target="_blank" class="btn btn-danger btn-lg btn-block" tabindex="-1"
+                                        role="button" aria-disabled="true">😁Ver Inazuma eleven Ares no tenbin</a>
+
+                                </div>
+                                <br>
+                                <div class="text-center center-block">
+
+                                    <a href="https://www.youtube.com/playlist?list=PLTYrU4IEl9eksgoxT6S_BVEGNgIvvQDXi"
+                                        target="_blank" class="btn btn-danger btn-lg btn-block" tabindex="-1"
+                                        role="button" aria-disabled="true">😁ver inazuma eleven ares no tenbin(final)</a>
+
+                                </div>
+                                <!--Fin Boton Ver Serie-->
+
+
+                                <!--Redes Sociales-->
+                                
+                                <hr />
+                              
+                                <!--Fin Redes Sociales-->
+
+                                <!--Footer-->
+                                <footer id="footer" class="pb-4 pt-4 bg-danger">
+                                    <div class="container">
+                                        <div class="row text-center">
+                                            <div class=" col-12 col-lg">
+                                                <a href="Entrada.html">Home</a>
+                                          
+                                        </div>
+                                    </div>
+                                </footer>
+                                <!--Fin footer-->
+
+                            </div>
+
+                            <!--Main Container-->
+
+
+                        </div>
+
+                        <!-- Optional JavaScript -->
+                        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+                        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                            crossorigin="anonymous"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                            crossorigin="anonymous"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                            crossorigin="anonymous"></script>
+                        <script src="index.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js "
+                            integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc "
+                            crossorigin="anonymous "></script>
+
+
+
+</body>
+
+</html>
